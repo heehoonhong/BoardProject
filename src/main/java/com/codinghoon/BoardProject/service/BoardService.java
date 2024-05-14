@@ -27,6 +27,6 @@ public class BoardService {
     public List<BoardDTO> findAll() { // Entity -> DTO
         List<BoardEntity> boardEntityList=boardRepository.findAll();
         List<BoardDTO> boardDTOList=new ArrayList<>();
-        for(Bo)
+
     }
 }
